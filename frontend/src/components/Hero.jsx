@@ -41,8 +41,13 @@ export default function Hero() {
             <a href="#contact" className="bg-[#0a0a0a] border border-yellow-500/30 text-white px-6 py-3 rounded-xl font-medium flex items-center gap-2 hover:border-yellow-500/80 transition-all shadow-sm">
               <Mail size={20} /> Contact
             </a>
-            <a href="/resume.pdf" target="_blank" rel="noreferrer" className="bg-[#0b0c10] border border-indigo-500/30 text-white px-6 py-3 rounded-xl font-medium flex items-center gap-2 hover:border-indigo-500/80 transition-all shadow-sm">
-              <Download size={20} /> Download Resume
+            <a
+              href="/resume.pdf"
+              download="Chirag_Vasisth_Resume.pdf"
+              className="flex items-center gap-2 px-6 py-3 bg-white/5 border border-white/10 rounded-xl text-gray-300 hover:bg-white/10 transition-all duration-300"
+            >
+              <Download size={18} />
+              <span>Download Resume</span>
             </a>
           </div>
 
