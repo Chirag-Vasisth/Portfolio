@@ -18,8 +18,8 @@ export default function Contact() {
     setStatus({ type: '', msg: '' })
 
     try {
-      // Connects to the Express backend running on :5000 (adjust if needed)
-      const res = await axios.post('http://localhost:5000/api/contact', formData);
+      // Connects to the Express backend
+      const res = await axios.post('/api/contact', formData);
       setStatus({ type: 'success', msg: 'Message sent successfully! I will get back to you soon.' })
       setFormData({ name: '', email: '', subject: '', message: '' })
     } catch (error) {
