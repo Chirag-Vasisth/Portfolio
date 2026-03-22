@@ -65,6 +65,27 @@ export default function Projects() {
         web: ["React.js", "Tailwind CSS", "Framer Motion"],
         data: ["Node.js", "Express.js", "MongoDB Atlas", "Socket.io"]
       }
+    },
+    {
+      title: "Portfolio",
+      tagline: "Modern Developer Brand",
+      description: "A premium, high-fidelity portfolio website built with React, Tailwind CSS, and Framer Motion, featuring custom interactive cursors and detailed project showcases.",
+      problem: "Developers often use generic templates that lack uniqueness, performance optimization, and deep technical storytelling for their projects.",
+      solution: "A custom-engineered, glassmorphism-inspired portfolio that emphasizes technical depth through detailed project cards and an immersive, micro-interaction-driven user experience.",
+      github: "https://github.com/Chirag-Vasisth/Portfolio",
+      icon: <Sparkles className="text-primary" size={32} />,
+      features: [
+        "Cyber-Target Interactive Cursor",
+        "Component-Based Architecture",
+        "Fully Responsive Design",
+        "Framer Motion Animations",
+        "Detailed Project Showcases",
+        "Glassmorphism Design System"
+      ],
+      techStack: {
+        web: ["React.js", "Vite", "Tailwind CSS"],
+        ui: ["Framer Motion", "Lucide Icons", "Glassmorphism"]
+      }
     }
   ]
 
