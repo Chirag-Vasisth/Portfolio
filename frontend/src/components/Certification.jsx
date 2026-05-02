@@ -4,12 +4,12 @@ import { Award, ExternalLink } from 'lucide-react'
 export default function Certification() {
   const certs = [
     {
-      title: "AWS Cloud Architecting",
-      issuer: "AWS Academy",
-      file: "/AWS_Academy_Graduate___Cloud_Architecting___Training_Badge_Badge20260121-31-qnc7tf.pdf",
-      color: "text-[#ff9900]",
-      iconBg: "bg-[#ff9900]/10",
-      border: "border-[#ff9900]/20 hover:border-[#ff9900]/60"
+      title: "Oracle Data Platform 2025 Certified Foundations Associate",
+      issuer: "Oracle",
+      file: "/Oracle Certificate.pdf",
+      color: "text-red-500",
+      iconBg: "bg-red-500/10",
+      border: "border-red-500/20 hover:border-red-500/60"
     },
     {
       title: "Cloud Computing Essentials with Azure Management",
@@ -20,12 +20,12 @@ export default function Certification() {
       border: "border-blue-400/20 hover:border-blue-400/60"
     },
     {
-      title: "Introduction to HTML, CSS, & JavaScript",
-      issuer: "Coursera",
-      file: "/Coursera D2ENXMXL9WUT.pdf",
-      color: "text-blue-400",
-      iconBg: "bg-blue-400/10",
-      border: "border-blue-400/20 hover:border-blue-400/60"
+      title: "AWS Cloud Architecting",
+      issuer: "AWS Academy",
+      file: "/AWS_Academy_Graduate___Cloud_Architecting___Training_Badge_Badge20260121-31-qnc7tf.pdf",
+      color: "text-[#ff9900]",
+      iconBg: "bg-[#ff9900]/10",
+      border: "border-[#ff9900]/20 hover:border-[#ff9900]/60"
     },
     {
       title: "Privacy & Security in Online Social Media",
