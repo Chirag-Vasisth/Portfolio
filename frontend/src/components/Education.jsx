@@ -7,7 +7,7 @@ export default function Education() {
       degree: "B.Tech Computer Science",
       institution: "Lovely Professional University",
       duration: "2023 - 2027",
-      grade: "CGPA: 8.0/10"
+      grade: "CGPA: 8.13/10"
     },
     {
       degree: "12th Grade (PCM)",
