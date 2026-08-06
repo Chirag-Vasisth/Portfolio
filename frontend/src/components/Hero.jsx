@@ -42,8 +42,8 @@ export default function Hero() {
               <Mail size={20} /> Contact
             </a>
             <a
-              href="/General Resume.pdf"
-              download="Chirag_Vasisth_Resume.pdf"
+              href="/Chirag_Vasisth CV.pdf"
+              download="Chirag_Vasisth_CV.pdf"
               className="flex items-center gap-2 px-6 py-3 bg-white/5 border border-white/10 rounded-xl text-gray-300 hover:bg-white/10 transition-all duration-300"
             >
               <Download size={18} />
